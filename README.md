@@ -2,14 +2,15 @@
 
 Jetpack Composeで遊んでみました。楽しい
 
-<img src="https://imgur.com/yOqCVUa.png" width=200>
-<img src="https://imgur.com/zF3k6ek.png" width=200>
-<img src="https://imgur.com/tY1hy1L.png" width=200>
-<img src="https://imgur.com/vUjMTkK.png" width=200>
-<img src="https://imgur.com/hMkcsTA.png" width=200>
-<img src="https://imgur.com/dDDg7VN.png" width=200>
-<img src="https://imgur.com/KqnWd5w.png" width=200>
-
+<p align="center">
+<img src="https://imgur.com/yOqCVUa.png" width="200">
+<img src="https://imgur.com/zF3k6ek.png" width="200">
+<img src="https://imgur.com/tY1hy1L.png" width="200">
+<img src="https://imgur.com/vUjMTkK.png" width="200">
+<img src="https://imgur.com/hMkcsTA.png" width="200">
+<img src="https://imgur.com/dDDg7VN.png" width="200">
+<img src="https://imgur.com/KqnWd5w.png" width="200">
+</p>
 
 ## Jetpack Composeの書き方
 
