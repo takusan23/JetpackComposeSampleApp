@@ -16,7 +16,7 @@ fun HomeScreen() {
         Text(text = """
             | Jetpack Composeのサンプル集
             | - Android Studio Version
-            |   - Android Studio Arctic Fox | 2020.3.1 Canary 3
+            |   - Android Studio Arctic Fox | 2020.3.1 Canary 4
         """.trimMargin())
     }
 }

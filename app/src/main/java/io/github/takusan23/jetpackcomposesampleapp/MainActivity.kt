@@ -2,6 +2,7 @@ package io.github.takusan23.jetpackcomposesampleapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
@@ -15,6 +16,7 @@ import io.github.takusan23.jetpackcomposesampleapp.screen.*
 import io.github.takusan23.jetpackcomposesampleapp.ui.*
 
 class MainActivity : AppCompatActivity() {
+    @ExperimentalAnimationApi
     @ExperimentalMaterialApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -76,6 +78,7 @@ class MainActivity : AppCompatActivity() {
                             7 -> ExpandingTextScreen()
                             8 -> ImageRoundScreen()
                             9 -> DynamicThemeScreen(themeClick = { dynamicTheme.value = it })
+                            10 -> AnimationScreen()
                         }
                     }
                 }

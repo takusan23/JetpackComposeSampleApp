@@ -85,6 +85,12 @@ fun MenuUI(clickMenu: (Int) -> Unit) {
             imageVector = Icons.Outlined.Colorize,
             click = { clickMenu(9) }
         )
+        // アニメーション
+        MenuItem(
+            text = "アニメーション / Animation",
+            imageVector = Icons.Outlined.MotionPhotosOn,
+            click = { clickMenu(10) }
+        )
     }
 }
 
@@ -101,7 +107,9 @@ fun MenuItem(text: String, imageVector: ImageVector, click: () -> Unit) {
         Icon(imageVector = imageVector)
         Text(
             text = text,
-            modifier = Modifier.weight(1f).padding(10.dp)
+            modifier = Modifier
+                .weight(1f)
+                .padding(10.dp)
         )
     }
 }
