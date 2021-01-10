@@ -12,6 +12,10 @@ Jetpack Composeで遊んでみました。楽しい
 <img src="https://imgur.com/KqnWd5w.png" width="200">
 </p>
 
+## ダウンロード
+
+https://github.com/takusan23/JetpackComposeSampleApp/releases/tag/1.0
+
 ## Jetpack Composeの書き方
 
 多分内部で値を持つより、引数に出してあげたほうがいいらしい？
